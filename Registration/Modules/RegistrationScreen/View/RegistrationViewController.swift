@@ -9,6 +9,14 @@ import UIKit
 
 class RegistrationViewController: UIViewController {
 
+    @IBOutlet weak var nameTxt: UITextField!
+    
+    @IBOutlet weak var emailTxt: UITextField!
+    
+    @IBOutlet weak var passwordTxt: UITextField!
+    @IBOutlet weak var passwordStatusLbl: UIStackView!
+    @IBOutlet weak var registerBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

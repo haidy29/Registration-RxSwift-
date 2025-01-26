@@ -116,6 +116,13 @@
                             <constraint firstItem="yuT-K6-H2A" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xAR-UV-TSb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTxt" destination="Gcm-d7-Dvl" id="QNv-BJ-GDO"/>
+                        <outlet property="nameTxt" destination="Ch6-1o-gdd" id="5hO-t9-0IO"/>
+                        <outlet property="passwordStatusLbl" destination="4UI-xa-zfP" id="6fY-IP-1ZZ"/>
+                        <outlet property="passwordTxt" destination="7hf-C3-3kH" id="uoA-9K-jbu"/>
+                        <outlet property="registerBtn" destination="At1-yX-FUw" id="OFp-hV-SPJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
