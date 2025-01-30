@@ -73,18 +73,18 @@
                                         </buttonConfiguration>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="53" translatesAutoresizingMaskIntoConstraints="NO" id="4UI-xa-zfP">
-                                        <rect key="frame" x="8" y="206" width="386" height="19.333333333333343"/>
+                                        <rect key="frame" x="8" y="206" width="386" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="password status:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ri-IU-TWC">
-                                                <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="19.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="50"/>
                                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMb-N5-MYR">
-                                                <rect key="frame" x="219.66666666666663" y="0.0" width="166.33333333333337" height="19.333333333333332"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMb-N5-MYR">
+                                                <rect key="frame" x="219.66666666666663" y="0.0" width="166.33333333333337" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -120,7 +120,7 @@
                     <connections>
                         <outlet property="emailTxt" destination="Gcm-d7-Dvl" id="QNv-BJ-GDO"/>
                         <outlet property="nameTxt" destination="Ch6-1o-gdd" id="5hO-t9-0IO"/>
-                        <outlet property="passwordStatusLbl" destination="4UI-xa-zfP" id="6fY-IP-1ZZ"/>
+                        <outlet property="passwordStatusLbl" destination="XMb-N5-MYR" id="JQ6-d8-hDo"/>
                         <outlet property="passwordTxt" destination="7hf-C3-3kH" id="uoA-9K-jbu"/>
                         <outlet property="registerBtn" destination="At1-yX-FUw" id="OFp-hV-SPJ"/>
                     </connections>
